@@ -40,13 +40,58 @@ namespace Project_02 {
         protected global::System.Web.UI.WebControls.ListBox ListBoxCustomers;
         
         /// <summary>
-        /// LabelSubheading control.
+        /// LabelSubheading1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelSubheading;
+        protected global::System.Web.UI.WebControls.Label LabelSubheading1;
+        
+        /// <summary>
+        /// ButtonAllCustomers control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonAllCustomers;
+        
+        /// <summary>
+        /// ButtonZealand control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonZealand;
+        
+        /// <summary>
+        /// ButtonJutland control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonJutland;
+        
+        /// <summary>
+        /// ButtonFunen control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonFunen;
+        
+        /// <summary>
+        /// LabelSubheading2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelSubheading2;
         
         /// <summary>
         /// LabelFirstname control.
@@ -121,22 +166,22 @@ namespace Project_02 {
         protected global::System.Web.UI.WebControls.TextBox TextBoxZipcode;
         
         /// <summary>
-        /// LabelCountry control.
+        /// LabelRegion control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label LabelCountry;
+        protected global::System.Web.UI.WebControls.Label LabelRegion;
         
         /// <summary>
-        /// TextBoxCountry control.
+        /// TextBoxRegion control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxCountry;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxRegion;
         
         /// <summary>
         /// LabelPassword control.

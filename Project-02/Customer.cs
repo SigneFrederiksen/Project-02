@@ -13,18 +13,18 @@ namespace Project_02
         public string Lastname { get; set; }
         public int Age { get; set; }
         public int Zipcode { get; set; }
-        //public string Country { get; set; }
+        public string Region { get; set; }
         public string Password { get; set; }
 
 
         // Here we initialize the fields with the correct values.
-        public Customer(string firstname, string lastname, int age, int zip, string pass) // string country,
+        public Customer(string firstname, string lastname, int age, int zip, string region, string pass)
         {
             this.Firstname = firstname;
             this.Lastname = lastname;
             this.Age = age;
             this.Zipcode = zip;
-            //this.Country = country;
+            this.Region = region;
             this.Password = pass;
         }
 
@@ -33,7 +33,7 @@ namespace Project_02
         // that will return a string of each customers. 
         public override string ToString()
         {
-            return "Firstname: " + Firstname + ", Lastname: " + Lastname + ", Age: " + Age + ", Zipcode: " + Zipcode + ", Password: " + Password; // ", Country: " + Country + 
+            return "Firstname: " + Firstname + ", Lastname: " + Lastname + ", Age: " + Age + ", Zipcode: " + Zipcode + ", Region: " + Region + ", Password: " + Password;
         }
 
     }
